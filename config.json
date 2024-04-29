@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "visalakshi",
+        "password": "1234",
+        "database": "true_mates_db",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "visalakshi",
+        "password": "1234",
+        "database": "true_mates_db_test",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "visalakshi",
+        "password": "1234",
+        "database": "true_mates_db_production",
+        "host": "localhost",
+        "dialect": "postgres"
+    }
+}
