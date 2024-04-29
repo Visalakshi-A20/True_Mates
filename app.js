@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const userRoutes = require('./routes/user');
 const authRoutes = require('./routes/auth');
 const postsRoutes = require('./routes/posts');
+const viewpostsRoutes = require('./routes/viewposts');
 
 const jwt = require('jsonwebtoken');
 const secretKey = 'visalakshi_secret_key';
@@ -58,6 +59,9 @@ app.use('/auth', authRoutes);
 
 // Mount posts routes
 app.use('/posts', postsRoutes);
+
+// Mount viewposts routes
+app.use('/viewposts', viewpostsRoutes);
 
 // Start the server
 const PORT = process.env.PORT || 3000;
